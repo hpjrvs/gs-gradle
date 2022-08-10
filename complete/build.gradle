@@ -31,3 +31,12 @@ dependencies {
 
 // tag::wrapper[]
 // end::wrapper[]
+
+publish {
+    println "Message: $variableCMD"
+
+}
+publishing {
+    println "Message: $variableCMD"
+
+}
